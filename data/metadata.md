@@ -5,7 +5,6 @@
 Waiting time between eruptions and the duration of the eruption for the Old Faithful geyser in Yellowstone National Park, Wyoming, USA. These are heavily rounded times originally in seconds, where multiples of 5 are more frequent than expected under non-human measurement. There are many versions of this dataset around: Azzalini and Bowman (1990) use a more complete version.
 
 
-
 ### Format
 
 A table with 272 observations on 2 variables.
