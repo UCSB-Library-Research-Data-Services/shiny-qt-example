@@ -1,6 +1,6 @@
-# shiny-qt-example
+# Developing a reproducible Shiny app
 
-companion app to the publication
+Shiny application example adopting the recommendations of the "10 Quick Tips for Developing a Reproducible Shiny Application", Brun et al., 2025, PLOS Computational Biology
 
-A simple Shiny app that displays eruption data for the Old Faithful geyser. 
-Featured on the front page of the [Shiny Dev Center](http://shiny.rstudio.com).
+We are reusing the Faithful Shiny app example (https://shiny.posit.co/r/gallery/start-simple/faithful/) provided as part of the R ***shiny*** package.
+This Shiny application displays eruption data for the Old Faithful geyser. 
