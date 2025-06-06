@@ -5,4 +5,9 @@ Shiny application example adopting the recommendations of the "10 Quick Tips for
 In this example, we are reusing the Faithful Shiny app example (https://shiny.posit.co/r/gallery/start-simple/faithful/) provided as part of the R ***shiny*** package.
 This Shiny application displays eruption data for the Old Faithful geyser.
 
+## Contributors
+
+## Where to start
+
+## Acknowledgements
 
