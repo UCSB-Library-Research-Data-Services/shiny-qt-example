@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: Please cite this software as follows.
+title: Example Shiny application adopting the recommendations from "10 Quick Tips for Developing a Reproducible Shiny Application"
+authors:
+  - family-names: Brun
+    given-names: Julien
+    orcid: https://orcid.org/0000-0002-7751-6238
+  - family-names: Janée
+    given-names: Greg
+    orcid: https://orcid.org/0000-0001-8785-0021
+  - family-names: Curty
+    given-names: Renata G.
+    orcid: https://orcid.org/0000-0002-4615-6030
+date-released: 2025-06-10
+identifiers:
+  - description: Accompanying journal publication
+    type: doi
+    value: TBD
+license: MIT
+repository-code: https://github.com/UCSB-Library-Research-Data-Services/shiny-qt-example
