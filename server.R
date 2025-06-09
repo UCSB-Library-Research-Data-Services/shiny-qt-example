@@ -24,5 +24,5 @@ function(input, output) {
       lines(dens, col = "blue")
     }
 
-  })
+  }) # end of main plot
 }
