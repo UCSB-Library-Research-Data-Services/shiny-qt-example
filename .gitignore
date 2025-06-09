@@ -3,5 +3,8 @@
 .RData
 .Ruserdata
 
+# Ignore cache file
+data/cache.Rdata
+
 # Mac OS
 **.DS_Store
