@@ -1,4 +1,4 @@
-# This code was adapted from the Shiny R package examples: 
+# This code was adapted from the Shiny R package example: 
 # https://github.com/rstudio/shiny-examples/tree/main/083-front-page
 
 
