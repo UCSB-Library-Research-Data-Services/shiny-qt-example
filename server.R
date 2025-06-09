@@ -1,7 +1,6 @@
 # This code was adapted from the Shiny R package example: 
 # https://github.com/rstudio/shiny-examples/tree/main/083-front-page
 
-
 function(input, output) {
   # Main plot
   output$main_plot <- renderPlot({
