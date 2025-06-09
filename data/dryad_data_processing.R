@@ -1,8 +1,11 @@
+# Script processing the raw data "Yellowstone Upper Basin Geyser binary eruption data (April 2007- October 2008; revised)"
+# downloaded from the data repository Dryad, https://doi.org/10.5061/dryad.s1rn8pkbv
+
 library(dplyr)
 library(readr)
 library(lubridate)
 
-# file path
+# File path
 data_raw <- file.path("data", "raw")
 data_processed <- file.path("data", "processed")
 
