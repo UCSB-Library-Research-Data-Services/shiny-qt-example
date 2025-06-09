@@ -2,8 +2,12 @@ library(dplyr)
 library(readr)
 library(lubridate)
 
-# Import data
-dryad_data <- read_csv("data/raw/doi_10_5061_dryad_s1rn8pkbv__v20240625/bin_eruption.csv")
+# file path
+data_raw <- file.path("data", "raw")
+data_processed <- file.path("data", "procesed")
+
+# Import raw data
+dryad_data <- read_csv(file.path(data_raw, "bin_eruption.csv"))
 
 # Select only data for the Old Faithful and convert time to POSIX format
 data_faithful <- dryad_data |>
@@ -19,4 +23,4 @@ data_faithful_erupt <-  data_faithful |>
   filter(wait_time_minutes < 500) # Arbitrarily remove "outliers" for better visualization
 
 # write the csv file for the app
-write_csv(data_faithful_erupt, "data/processed/old_faithful_waiting_time.csv") 
+write_csv(data_faithful_erupt, file.path(data_processed, "old_faithful_waiting_time.csv"))
