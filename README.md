@@ -2,7 +2,7 @@
 
 Example Shiny application adopting the recommendations of "Ten Quick Tips for Developing a Reproducible Shiny Application", Brun et al, 2025, PLOS Computational Biology.
 
-In this example, we are reusing the Faithful Shiny app example (<https://shiny.posit.co/r/gallery/start-simple/faithful/>) provided as part of the R `shiny` package. This Shiny application displays eruption data for the Old Faithful geyser.
+In this example, we are reusing the [Faithful Shiny app example](https://shiny.posit.co/r/gallery/start-simple/faithful/) provided as part of the R ***shiny*** package. This Shiny application displays eruption duration in minutes for the Old Faithful geyser.
 
 ## Tips demonstrated
 
@@ -12,7 +12,7 @@ In this example, we are reusing the Faithful Shiny app example (<https://shiny.p
     -   Record the output of `sessionInfo()`
 -   Document and develop incrementally
     -   Comment UI elements
--   Make your Shiny application modualr and portable
+-   Make your Shiny application modular and portable
     -   Organize code and data
     -   Use relative paths and `file.path`
 -   Preprocess and cache data for performance
@@ -65,11 +65,11 @@ This repository has the following file structure:
 
 ### Virtual computing environment
 
-This app uses `renv` to create a virtual environment
+This app uses ***renv*** to create a virtual environment
 
 - `renv.lock`: list of the R packages used by the virtual environment
 - `.Rprofile`: ensures that the library is used every time you open that project
-- `renv/activate.R`: R script sourced by .Rprofile to activate the virtual environment
+- `renv/activate.R`: R script sourced by `.Rprofile` to activate the virtual environment
 - `renv/settings.json`: virtual environment settings
 
 ### Data
@@ -79,7 +79,7 @@ This app uses `renv` to create a virtual environment
 
 ## References
 
-The underlying data is available as part of R package datasets. The version used is distributed with R 4.5.0. This version is a simplified
-of the original data collected by Azzalini, A. and Bowman, A. W. (1990). See metadata.md in the `data` directory for more information.
+The underlying data is available as part of R package ***datasets***. The version used is distributed with R 4.5.0. This version is a simplification
+of the original data collected by Azzalini, A. and Bowman, A. W. (1990). See `metadata.md` in the `data` directory for more information.
 
 Cite this work as: Brun, J., Janée, G., & Curty, R. G. (2025). Example Shiny application adopting the recommendations from "Ten Quick Tips for Developing a Reproducible Shiny Application" [Computer software]. <https://github.com/UCSB-Library-Research-Data-Services/shiny-qt-examples>
