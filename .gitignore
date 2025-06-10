@@ -3,10 +3,10 @@
 .RData
 .Ruserdata
 
-# Ignore cache file
+# cache file
 data/processed/cache.Rdata
 
-# Ignore renv files
+# renv files
 renv/library/
 renv/settings.json
 
