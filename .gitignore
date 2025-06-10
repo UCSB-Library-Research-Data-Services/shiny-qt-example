@@ -4,7 +4,11 @@
 .Ruserdata
 
 # Ignore cache file
-data/cache.Rdata
+data/processed/cache.Rdata
+
+# Ignore renv files
+renv/library/
+renv/settings.json
 
 # Mac OS
 **.DS_Store
