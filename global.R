@@ -12,6 +12,6 @@ cache_file <- file.path(data_path, "cache.Rdata")
 if (file.exists(cache_file) && file.info(cache_file)$mtime > file.info(csv_file)$mtime) {
   load(cache_file)
 } else {
-  old_faithful <- read_csv(csv_file)
-  save(old_faithful, file=cache_file)
+  data_faithful_erupt <- read_csv(csv_file)
+  save(data_faithful_erupt, file=cache_file)
 }
