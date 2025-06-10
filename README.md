@@ -62,39 +62,34 @@ This repository has the following file structure:
 
 ### Shiny app
 
-- global.R: Load libraries and check for existing data files
-- server.R: server side functions of the Shiny app used to compute the histogram plot and other plot features
-- ui.R: user interface of the Shiny app
+- `global.R`: Load libraries and check for existing data files
+- `server.R`: server side functions of the Shiny app used to compute the histogram plot and other plot features
+- `ui.R`: user interface of the Shiny app
 
 ### Data
 
-- dryad_data_processing.R: R script processing the raw data into a simplified file to be used as input file for the Shiny app
+- `dryad_data_processing.R`: R script processing the raw data into a simplified file to be used as input file for the Shiny app
 
 #### Raw data
 
-`data/raw`
-
-- bin_eruption.csv: data about the Yellowstone Upper Basin Geyser binary eruption data <https://doi.org/10.5061/dryad.s1rn8pkbv>
-- README.md: metadata for bin_eruption.csv
-- data_license_cc0.txt: CC0 License for bin_eruption.csv  <https://creativecommons.org/publicdomain/zero/1.0/>
-- cache.Rdata: Rdata version of bin_eruption.csv
+- `data/raw/bin_eruption.csv`: data about the Yellowstone Upper Basin Geyser binary eruption data <https://doi.org/10.5061/dryad.s1rn8pkbv>
+- `data/raw/README.md`: metadata for bin_eruption.csv
+- `data/raw/data_license_cc0.txt`: CC0 License for bin_eruption.csv  <https://creativecommons.org/publicdomain/zero/1.0/>
+- `data/raw/cache.Rdata`: Rdata version of bin_eruption.csv create by global.r
 
 #### Processed data
 
-`data/processed`
-
-- old_faithful_waiting_time.csv: data measuring the waiting time in minutes between eruptions of the Old Faithful from April 2007- October 2008
-- metadata.md: metadata for old_faithful_waiting_time.csv
+- `data/processed/old_faithful_waiting_time.csv`: data measuring the waiting time in minutes between eruptions of the Old Faithful from April 2007- October 2008
+- ``data/processed/metadata.md`: metadata for old_faithful_waiting_time.csv
 
 ### Virtual computing environment
 
 This app uses `renv` to create a virtual environment
 
-- renv.lock: list of the R packages used by the virtual environment
-- .Rprofile: ensures that the library is used every time you open that project
-- renv/activate.R: R script sourced by .Rprofile to activate the virtual environment
-- renv/settings.json: virtual environment settings
-- renv/library: R libraries used by the virtual environment
+- `renv.lock`: list of the R packages used by the virtual environment
+- `.Rprofile`: ensures that the library is used every time you open that project
+- `renv/activate.R`: R script sourced by .Rprofile to activate the virtual environment
+- `renv/settings.json`: virtual environment settings
 
 
 ## References
