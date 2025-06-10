@@ -1,6 +1,5 @@
 cff-version: 1.2.0
 message: Please cite this software as follows.
-title: Example Shiny application adopting the recommendations from "Ten Quick Tips for Developing a Reproducible Shiny Application"
 authors:
   - family-names: Brun
     given-names: Julien
@@ -11,6 +10,8 @@ authors:
   - family-names: Curty
     given-names: Renata G.
     orcid: https://orcid.org/0000-0002-4615-6030
+title: Example Shiny application adopting the recommendations from "Ten Quick Tips for Developing a Reproducible Shiny Application"
+version: 0.1
 date-released: 2025-06-10
 identifiers:
   - description: Accompanying journal publication
