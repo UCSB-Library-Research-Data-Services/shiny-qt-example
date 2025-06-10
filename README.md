@@ -4,7 +4,7 @@ Example Shiny application adopting the recommendations of "Ten Quick Tips for De
 
 In this example, we are reusing the Faithful Shiny app example (<https://shiny.posit.co/r/gallery/start-simple/faithful/>) provided as part of the R `shiny` package. This Shiny application displays eruption data for the Old Faithful geyser.
 
-## Tips demonstrated:
+## Tips demonstrated
 
 -   Set up your computing environment
     -   Use git and GitHub
@@ -27,11 +27,13 @@ In this example, we are reusing the Faithful Shiny app example (<https://shiny.p
     -   Add a CITATION.cff file
 -   Share your app
     -   Publish on shinyapps.io and archive in Zenodo
+
     
-## How to run this app
+## How to run this Shiny app
 
 1. Clone this repository and run at the R console: `shiny::runApp()`
 2. At the R console run: `shiny::runGitHub(repo="shiny-qt-example", "UCSB-Library-Research-Data-Services")`
+
 
 ## File structure
 
@@ -93,7 +95,6 @@ This app uses `renv` to create a virtual environment
 - renv/activate.R: R script sourced by .Rprofile to activate the virtual environment
 - renv/settings.json: virtual environment settings
 - renv/library: R libraries used by the virtual environment
-
 
 
 ## References
