@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: Please cite this software as follows.
-title: Example Shiny application adopting the recommendations from "10 Quick Tips for Developing a Reproducible Shiny Application"
+itle: Example Shiny application adopting the recommendations from "Ten Quick Tips for Developing a Reproducible Shiny Application"
 authors:
   - family-names: Brun
     given-names: Julien
