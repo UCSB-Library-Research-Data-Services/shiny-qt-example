@@ -9,6 +9,7 @@ data/processed/cache.Rdata
 # renv files
 renv/library/
 renv/settings.json
+renv/.gitignore
 
 # Mac OS
 **.DS_Store
