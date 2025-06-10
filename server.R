@@ -1,25 +1,24 @@
 # This code was adapted from the Shiny R package example: 
 # https://github.com/rstudio/shiny-examples/tree/main/083-front-page
 
-
 function(input, output) {
   # Main plot
   output$main_plot <- renderPlot({
     # Histogram plot
-    hist(old_faithful$eruptions,
+    hist(data_faithful_erupt$wait_time_minutes,
       probability = TRUE,
       breaks = as.numeric(input$n_breaks),
-      xlab = "Duration (minutes)",
-      main = "Geyser eruption duration")
+      xlab = "Wating time (minutes)",
+      main = "Geyser waiting time between eruptions")
     
     # Adds individual observations to plot
     if (input$individual_obs) {
-      rug(old_faithful$eruptions)
+      rug(data_faithful_erupt$wait_time_minutes)
     }
     
     # Adds density estimates to plot
     if (input$density) {
-      dens <- density(old_faithful$eruptions,
+      dens <- density(data_faithful_erupt$wait_time_minutes,
           adjust = input$bw_adjust)
       lines(dens, col = "blue")
     }
