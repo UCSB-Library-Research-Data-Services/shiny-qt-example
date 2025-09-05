@@ -90,4 +90,4 @@ of the original data collected by Azzalini, A. and Bowman, A. W. (1990). See `me
 
 How to add a DOI to your GitHub Repo using Zenodo: <https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content>
 
-Cite this work as: Brun, J., Janée, G., & Curty, R. G. (2025). Example Shiny application adopting the recommendations from "Ten Quick Tips for Developing a Reproducible Shiny Application" [Computer software]. <https://github.com/UCSB-Library-Research-Data-Services/shiny-qt-examples>
+Cite this work as: Brun, J., Janée, G., & Curty, R. G. (2025). Example Shiny application adopting the recommendations from "Ten Quick Tips for Developing a Reproducible Shiny Application" [Computer software]. <https://github.com/UCSB-Library-Research-Data-Services/shiny-qt-examples>, doi: [doi.org/10.5281/zenodo.17065657](https://doi.org/10.5281/zenodo.17065657)
