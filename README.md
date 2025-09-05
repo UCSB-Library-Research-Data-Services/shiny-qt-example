@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17065585.svg)](https://doi.org/10.5281/zenodo.17065585)
+
 # Developing a reproducible Shiny app
 
 Example Shiny application adopting the recommendations of "Ten Quick Tips for Developing a Reproducible Shiny Application", Brun et al, 2025, PLOS Computational Biology.
