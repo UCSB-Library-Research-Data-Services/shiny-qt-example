@@ -82,4 +82,6 @@ This app uses ***renv*** to create a virtual environment
 The underlying data is available as part of R package ***datasets***. The version used is distributed with R 4.5.0. This version is a simplification
 of the original data collected by Azzalini, A. and Bowman, A. W. (1990). See `metadata.md` in the `data` directory for more information.
 
+How to add a DOI to your GitHub Repo using Zenodo: <https://github.com/zenodo/zenodo/issues/1988>
+
 Cite this work as: Brun, J., Janée, G., & Curty, R. G. (2025). Example Shiny application adopting the recommendations from "Ten Quick Tips for Developing a Reproducible Shiny Application" [Computer software]. <https://github.com/UCSB-Library-Research-Data-Services/shiny-qt-examples>
