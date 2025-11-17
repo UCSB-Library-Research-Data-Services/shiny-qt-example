@@ -4,13 +4,13 @@
 
 
 
-# Developing a reproducible Shiny app
+# Developing a reproducible Shiny application: a companion example
 
-Example Shiny application adopting the recommendations of "Ten Quick Tips for Developing a Reproducible Shiny Application", Brun et al, 2025, PLOS Computational Biology.
+This Shiny application serves as a companion example demonstrating the best practices outlined in the journal article, "Ten quick tips for developing a reproducible Shiny application.", Brun J, Janée G, Curty RG. PLOS Computational Biology. 2025;21: e1013551. [doi:10.1371/journal.pcbi.1013551](https://doi.org/10.1371/journal.pcbi.1013551)
 
-In this example, we are reusing the [Faithful Shiny app example](https://shiny.posit.co/r/gallery/start-simple/faithful/) provided as part of the R ***shiny*** package. This Shiny application displays eruption duration in minutes for the Old Faithful geyser.
+The example reuses the [Faithful Shiny app example](https://shiny.posit.co/r/gallery/start-simple/faithful/) from the R ***shiny*** package, which visualizes the eruption duration of the Old Faithful geyser
 
-## Tips demonstrated
+## Demonstrated reproducibility tips
 
 -   Set up your computing environment
     -   Use git and GitHub
